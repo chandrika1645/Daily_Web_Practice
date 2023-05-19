@@ -1,0 +1,65 @@
+header{
+    height: 60px;
+    background-color: rgba(0, 0, 0, 0.907);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    left: 250px;
+    top: 0px;
+    right: 0px;
+    z-index: 200;
+    
+}
+
+.nav-signs{
+    margin-left: 10px;
+}
+.left-sign{
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 30px;
+    border-radius: 30px;
+    background-color: black;
+    color:rgb(170, 168, 168);
+    margin-right: 10px;
+    cursor:no-drop;
+}
+
+
+.right-section{
+    margin-right: 10px;
+}
+.Sign-up-button{
+    padding: 15px 30px 15px 30px;
+    border-radius: 25px;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    background-color: transparent;
+    color: rgb(118, 118, 118);
+    cursor: pointer;
+    transition: color 0.15s, font-size 0.15s;
+}
+.Sign-up-button:hover{
+    color: white;
+    font-size: 19px;
+}
+.Sign-up-button:active,
+.Log-in-button:active{
+    opacity: 0.5;
+}
+
+.Log-in-button{
+    padding: 15px 25px 15px 25px;
+    border-radius: 25px;
+    font-weight: bold;
+    font-size: medium;
+    border: none;
+    transition: font-size 0.15s;
+    cursor: pointer;
+}
+.Log-in-button:hover{
+    padding: 15px 26px 15px 26px;
+}
