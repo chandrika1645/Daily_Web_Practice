@@ -1,0 +1,157 @@
+body{
+    background-color: rgba(0, 0, 0, 0.792);
+    color: whitesmoke;
+}
+main{
+    background-color: black;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    position: relative;
+    left: 250px;
+    top: 60px;
+    height: 1000px;
+    padding-bottom: 2000px;
+}
+
+.main-section-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    height: 55px;
+    position: relative;
+    left: 250px;
+    right: 0px;
+}
+.focus-text{
+    margin-left: 30px;
+    font-weight: bolder;
+    font-size: 27px;
+    color: white;
+    cursor: pointer;
+
+}
+.show-all-text{
+    margin-right: 30px;
+    font-size: small;
+    color: whitesmoke;
+    font-weight: bold;
+    cursor: pointer;
+}
+.focus-text:hover,
+.show-all-text:hover{
+    text-decoration: underline;
+}
+
+.section-1{
+}
+.track-section{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr ;
+    column-gap: 10px;
+    top: 110px;
+
+}
+.track-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 280px;
+    width: 200px;
+    border-radius: 8px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.thumbnail-pic{
+    position: relative;
+    margin-top: 10px;
+    width: 180px;
+    border-radius: 5px;
+}
+.thumbnail{
+    position: relative;
+}
+.play-button{
+    position: absolute;
+    height: 40px;
+    background-color: transparent;
+    bottom: 0;
+    right: 5px;
+}
+
+.track-info{
+    width: 180px;
+    align-items: start;
+    margin-left: 10px;
+    margin-top: 15px;
+}
+
+.section-2{
+    position: relative;
+    left: 250px;
+    right: 0px;
+    bottom: 0;
+}
+
+.main-section-header-2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    height: 55px;
+    position: relative;
+    
+    /* right: 0px; */
+}
+.focus-text{
+    margin-left: 30px;
+    font-weight: bolder;
+    font-size: 27px;
+    color: white;
+    cursor: pointer;
+
+}
+.show-all-text{
+    margin-right: 30px;
+    font-size: small;
+    color: whitesmoke;
+    font-weight: bold;
+    cursor: pointer;
+}
+.focus-text:hover,
+.show-all-text:hover{
+    text-decoration: underline;
+}
+
+.section-1{
+}
+.track-section-1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr ;
+    column-gap: 10px;
+    top: 475px;
+
+
+}
+.track-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 280px;
+    width: 200px;
+    background-color: rgba(0, 0, 0, 0.504);
+    border-radius: 8px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+
+.track-info{
+    width: 180px;
+    align-items: start;
+    margin-left: 10px;
+    margin-top: 15px;
+}
