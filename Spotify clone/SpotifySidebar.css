@@ -1,0 +1,82 @@
+nav{
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    bottom: 0px;
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    background-color: black;
+    z-index: 200;
+}
+.top-section{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 80px;
+    margin-left: 20px;
+}
+.Spotify-logo{
+    height: 40px;
+}
+.middle-top{
+    margin-bottom: 20px;
+}
+.middle-section{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+.middle-top-items{
+    margin-bottom: 10px;
+}
+
+.middle-bottom-items{
+    margin-bottom: 10px;
+}
+
+.home-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    color: white;
+
+}
+.home-text{
+    margin-top: 20px;
+}
+.home-icon{
+    height: 25px;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+.Create-button-container{
+    display: flex;
+    flex-direction: row;
+}
+.Create-button{
+    padding: 5px 5px 5px 5px;
+}
+.Create-button-text{
+    color: white;
+
+}
+.English-button{
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    border-radius: 30px;
+    padding: 5px 5px 5px 5px ;
+    border-width: 1px;
+    color: white;
+    background-color: transparent;
+    border-color: white;
+    font-weight: bold;
+    position: fixed;
+    bottom: 100px;
+}
+
+.English-button:hover{
+    border-width: 2px;
+}
