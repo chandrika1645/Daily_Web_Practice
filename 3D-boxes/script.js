@@ -1,9 +1,9 @@
 const boxesContainer = document.getElementById('boxes')
 const btn = document.getElementById('btn')
 
-btn.addEventListener('click', () => boxesContainer.classList.toggle('big'))
+btn.addEventListener('click', () => boxesContainer.classList.toggle('big'))  //Toggling the 'big' class will trigger the CSS transitions
 
-function createBoxes() {
+function createBoxes() {                     //create a grid of boxes
   for (let i = 0; i < 4; i++) {
     for (let j = 0; j < 4; j++) {
       const box = document.createElement('div')
