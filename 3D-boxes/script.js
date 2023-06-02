@@ -12,6 +12,6 @@ function createBoxes() {                     //create a grid of boxes
       boxesContainer.appendChild(box)
     }
   }  
-}
+}  
 
 createBoxes()
