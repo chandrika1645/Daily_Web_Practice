@@ -11,7 +11,7 @@ function createBoxes() {                     //create a grid of boxes
       box.style.backgroundPosition = `${-j * 125}px ${-i * 125}px`
       boxesContainer.appendChild(box)
     }
-  }
+  }  
 }
 
 createBoxes()
