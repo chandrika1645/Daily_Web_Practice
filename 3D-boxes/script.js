@@ -1,4 +1,4 @@
-const boxesContainer = document.getElementById('boxes')
+const boxesContainer = document.getElementById('boxes')  
 const btn = document.getElementById('btn')
 
 btn.addEventListener('click', () => boxesContainer.classList.toggle('big'))  //Toggling the 'big' class will trigger the CSS transitions
