@@ -3,7 +3,7 @@ const counter = document.querySelector('.counter')
 const finalMessage = document.querySelector('.final')
 const replay = document.querySelector('#replay')
 
-runAnimation()
+runAnimation()  
 
 function resetDOM() {
   counter.classList.remove('hide')
