@@ -8,7 +8,7 @@ runAnimation()
 function resetDOM() {
   counter.classList.remove('hide')
   finalMessage.classList.remove('show')
-
+  
   nums.forEach((num) => {
     num.classList.value = ''
   })
