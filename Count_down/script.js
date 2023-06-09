@@ -6,7 +6,7 @@ const replay = document.querySelector('#replay')
 runAnimation()  
     
 function resetDOM() {
-  counter.classList.remove('hide')
+  counter.classList.remove('hide')  
   finalMessage.classList.remove('show')
   
   nums.forEach((num) => {
