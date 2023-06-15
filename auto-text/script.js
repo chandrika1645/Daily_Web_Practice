@@ -3,7 +3,7 @@ const speedEl = document.getElementById('speed')
 const text = 'Hi there! This is handra and  love programmng'
 let idx = 1
 let speed = 300 / speedEl.value
-
+  
 writeText()
 
 function writeText() {
