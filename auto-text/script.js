@@ -1,4 +1,4 @@
-const textEl = document.getElementById('text')
+const textEl = document.getElementById('text')  
 const speedEl = document.getElementById('speed')
 const text = 'Hi there! This is chandra and love programmng'
 let idx = 1
